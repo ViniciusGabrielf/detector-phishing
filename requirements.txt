@@ -3,4 +3,4 @@ requests
 tldextract
 python-dotenv
 rapidfuzz
-
+reportlab
