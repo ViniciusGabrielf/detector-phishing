@@ -1,0 +1,45 @@
+PALAVRAS_SUSPEITAS = [
+    "urgente",
+    "clique aqui",
+    "sua conta será bloqueada",
+    "confirme sua senha",
+    "atualize seus dados",
+    "verifique sua conta",
+    "pagamento pendente",
+    "ação necessária",
+    "você ganhou",
+    "login",
+    "senha",
+    "dados bancários",
+    "desbloquear conta",
+    "confirme seus dados",
+    "suspensão da conta",
+    "acesso bloqueado",
+    "regularizar",
+    "evite o bloqueio",
+]
+
+PALAVRAS_URL_SUSPEITAS = [
+    "login",
+    "secure",
+    "verify",
+    "update",
+    "account",
+    "bank",
+    "senha",
+    "confirmar",
+    "validar",
+    "seguranca",
+    "security",
+    "signin",
+    "auth",
+]
+
+ENCURTADORES = [
+    "bit.ly",
+    "tinyurl.com",
+    "cutt.ly",
+    "t.co",
+    "goo.gl",
+    "shorturl.at",
+]
