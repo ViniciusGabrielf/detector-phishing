@@ -65,6 +65,17 @@ if st.button("Analisar"):
                 st.write(f"- {indicador}")
         else:
             st.write("Nenhum indicador suspeito encontrado.")
+        st.subheader("Possível imitação de marca")
+
+        if resultado["suspeitas_marcas"]:
+            for item in resultado["suspeitas_marcas"]:
+                st.warning(f"Possível imitação da marca: {item['marca']}")
+                st.write(f"Domínio analisado: `{item['dominio_analisado']}`")
+                st.write(f"Domínio oficial comparado: `{item['dominio_oficial']}`")
+                st.write(f"Similaridade: `{item['similaridade']:.2f}%`")
+                st.divider()
+        else:
+            st.write("Nenhuma tentativa clara de imitação de marca foi encontrada.")            
 
         st.subheader("Recomendação")
 

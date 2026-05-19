@@ -1,0 +1,46 @@
+{
+  "bancos": [
+    {
+      "nome": "Nubank",
+      "dominios_oficiais": ["nubank.com.br", "nubank.com"]
+    },
+    {
+      "nome": "Itaú",
+      "dominios_oficiais": ["itau.com.br"]
+    },
+    {
+      "nome": "Bradesco",
+      "dominios_oficiais": ["bradesco.com.br"]
+    },
+    {
+      "nome": "Banco do Brasil",
+      "dominios_oficiais": ["bb.com.br"]
+    },
+    {
+      "nome": "Santander",
+      "dominios_oficiais": ["santander.com.br"]
+    }
+  ],
+  "servicos": [
+    {
+      "nome": "Mercado Livre",
+      "dominios_oficiais": ["mercadolivre.com.br", "mercadolivre.com"]
+    },
+    {
+      "nome": "Netflix",
+      "dominios_oficiais": ["netflix.com"]
+    },
+    {
+      "nome": "Amazon",
+      "dominios_oficiais": ["amazon.com.br", "amazon.com"]
+    },
+    {
+      "nome": "Google",
+      "dominios_oficiais": ["google.com", "google.com.br"]
+    },
+    {
+      "nome": "Microsoft",
+      "dominios_oficiais": ["microsoft.com", "live.com", "outlook.com"]
+    }
+  ]
+}
